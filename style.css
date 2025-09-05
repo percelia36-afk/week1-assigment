@@ -1,18 +1,15 @@
-body {
+.feature {
+  height: 100vh;
   margin: 0px;
-}
-.bg {
-  height: auto;
   background-size: cover;
   position: relative;
 }
 .trails {
-  background-image: url("./images/TrailsInTheSky1stChapter.jpg");
+  background-image: url("./images/talesofarise.jpg");
 }
 .dragonage {
   background-image: url("./images/theveilguard.jpg");
 }
-
-.tales {
-  background-image: url("./images/talesofarise.jpg");
+.talesof {
+  background-image: url("./images/trailsinthesky.jpg");
 }
