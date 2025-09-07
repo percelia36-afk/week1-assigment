@@ -3,14 +3,16 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   box-sizing: border-box;
 }
+
 body {
   margin: 0px;
+  background-color: #722f37;
 }
 
 .feature {
   height: 100vh;
-
   background-size: cover;
+  z-index: 0;
   position: relative;
 }
 .trails {
@@ -19,38 +21,75 @@ body {
 .dragonage {
   background-image: url("./images/dav.jpg");
 }
-
 .tales {
   background-image: url("images/talesofarise.jpg");
 }
+
 img {
   height: 200px;
   width: auto;
 }
 header {
   position: fixed;
-  padding: 2.5rem 3rem;
-  z-index: 1;
-  width: 100vw;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 30px;
   background-color: #722f37;
-  opacity: 0.9;
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 4;
+  color: white;
 }
+
 nav {
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
-  gap: 2rem;
-  align-items: center;
+  color: white;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav:visited {
+  color: white;
 }
 h1 {
   font-weight: 800;
   font-size: large;
-  color: #bbb791;
+  text-align: center;
 }
-nav {
-  font-weight: 400;
-  font-size: small;
-  color: #bbb791;
+h2 {
+  color: #722f37;
+}
+p {
+  text-align: left;
+  color: #722f37;
+}
+
+.cta-box {
+  position: absolute;
+  background-color: white;
+  color: black;
+  padding: 20px;
+  z-index: 2;
+  bottom: 25px;
+  left: 15px;
+}
+
+.button-box {
+  display: inline-block;
+  color: white;
+  background-color: #722f37;
+  padding: 22px 20px;
+
+  z-index: 3;
+}
+footer {
+  top: 0;
+  left: 0;
+  color: white;
 }
