@@ -9,3 +9,4 @@ background-color: green; } as my css selevtion tag
 some resources i used were for css in order to stop the nav elements from changing color and remove the hiperlink underline from nav bar.
 ttps://www.shecodes.io/athena/36390-how-to-make-a-link-not-change-color-after-being-visited-in-css]
 https://getcssscan.com/blog/how-to-remove-underline-from-link-css#:~:text=By%20default%2C%20browsers%20add%20an,decoration%3A%20none%20to%20your%20code.
+I added some footer socisal images howver i had issues with making em look good as any way i tried to edit em using css did not seem to work linking to the webpage works fine .
